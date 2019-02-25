@@ -18,6 +18,8 @@ namespace dotnetcore_sample
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();
+            
+            nothing();
 
             host.Run();
         }
